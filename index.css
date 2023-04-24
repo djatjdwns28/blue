@@ -8,7 +8,7 @@
  * 모바일 화면 사이즈
  * 최대 크기
 */
-@media (max-width:768px) {
+@media (max-width:500px) {
     #main_first {
         background: #1B90FF;
         height: 522px;
@@ -125,7 +125,8 @@
     }
 
     .mcc_card1 {
-        width: 90%;
+        width: 300px;
+        border-radius:10px;
         height: 303px;
         background-color: #131A25;
     }
@@ -157,10 +158,23 @@
         width: 200px;
         height: 162px;
     }
+    .mcc_card_between{
+        display:none;
+    }
+    .mcc_card_between_mobile {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:#F4C247;
+        font-weight: bold;
+        font-size:50px;
+        width:5%;
+    }
 
     .mcc_card2 {
-        width: 90%;
+        width: 300px;
         height: 303px;
+        border-radius:10px;
         background-color: #131A25;
     }
     .mcc_card_title{
@@ -196,7 +210,7 @@
 
 
     #main_third {
-        height: 1716px;
+        height: 1700px;
     }
     
     #m_third {
@@ -207,7 +221,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 15%;
+        height: 10%;
     }
 
     .mthtc_text1 {
@@ -228,11 +242,15 @@
     .mthtc_text2{
         text-align: center;
         font-weight: bold;
+        height:50%;
         color: #222c3c;
         font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .m_third_card_list{
-        height:84%; 
+        height:90%; 
         width:100%;
         display:flex;
         flex-direction: column;   
@@ -240,8 +258,8 @@
         align-items: center;
     }
     .m_third_card1 {
-        width:95%;
-        height: 483px;
+        width:75%;
+        height: 30%;
         border-radius:10px;
         display:flex;
         flex-direction: column-reverse;
@@ -261,8 +279,8 @@
     }
     .m_third_card2 {
         margin-top:10px;
-        width:95%;
-        height: 483px;
+        width:75%;
+        height: 30%;
         border-radius:10px;
         display:flex;
         flex-direction: column-reverse;
@@ -282,8 +300,8 @@
     }
     .m_third_card3 {
         margin-top:10px;
-        width:95%;
-        height: 483px;
+        width:75%;
+        height: 30%;
         border-radius:10px;
         display:flex;
         flex-direction: column-reverse;
@@ -307,12 +325,12 @@
         font-size:18px;
         margin-top:20px;
     }
-    .m_third_card3 .mth_card_footer {
-        width:140px;
+    .m_third_card3 .m_third_card_footer {
+        width:120px;
         color:black;
         margin-top:auto;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         border-bottom: 1px solid black;
     }
     .m_third_card_text {
@@ -342,7 +360,7 @@
     }
     .m_third_card_img > img{ 
         width:100%;
-        height:203px;
+        height:200px;
         background-color: none;
     }
 
@@ -416,7 +434,8 @@
     }
     .m_four_third_content_img_mobile img{
         position: absolute;
-        width: 100%;
+        width: 90%;
+        max-width:334px;
         height:100%;
         transform: translate(-49%, 15%);
     }
@@ -429,7 +448,7 @@
         text-align: center;
     }
     .m_four_fourth_text{
-        margin-top: auto;
+        margin-top: 210px;
         font-weight: bold;
         font-size: 18px;
         color:#222C3C;
@@ -445,7 +464,7 @@
         align-items: center;
     }
     .m_four_fifth_card{
-        width: 95%;
+        width: 90%;
         height:30%;
         background-color: white;
         display: flex;
@@ -546,6 +565,7 @@
         margin: 0 auto;
         width:95%;
         height:100%;
+        border-radius:10px;
         background-color: #131A25;
         display:flex;           
         flex-direction: column;
@@ -574,6 +594,7 @@
     }
     .m_five_fourth_card{
         width:90%;
+        border-radius:10px;
         box-shadow: 3px 5px 5px lightgray;
         background-color: white;
         margin: 50px auto 0 auto;
@@ -630,6 +651,7 @@
     }
     .m_five_fourth_card_content_third_divider{
         width:100%;
+        margin-bottom:15px;
         height:1px;
         background-color: #DDDDDD;
     }
@@ -670,7 +692,7 @@
         height:35%;
     }
     .m_six_third_mobile img{
-        width: 80%;
+        width: 50%;
         height:95%;
     }
 
@@ -773,6 +795,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 10px;
+        margin-top:5px;
     }
     .m_eight_fourth{
         display:none;
@@ -896,7 +919,7 @@
 
     .mtc2_text1 span {
         text-align: center;
-        width: 6%;
+        width: 110px;
         border-bottom: 2px solid #EAEAEA;
     }
 
@@ -916,6 +939,9 @@
 
     .m_second_card_component {
         height: 65%;
+        width:70%;
+        min-width: 1000px;
+        margin:0 auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -958,7 +984,18 @@
         width: 90%;
         height: 80%;
     }
-
+    .mcc_card_between_mobile{
+        display:none;
+    }
+    .mcc_card_between{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:#F4C247;
+        font-weight: bold;
+        font-size:50px;
+        width:5%;
+    }
     .mcc_card2 {
         width: 440px;
         height: 550px;
@@ -1022,7 +1059,7 @@
 
     .mthtc_text1 span {
         text-align: center;
-        width: 4%;
+        width: 90px;
         border-bottom: 2px solid #666666;
     }
     
@@ -1043,7 +1080,7 @@
         width:70%;
         height: 30%;
         border-radius:10px;
-        min-width:1250px;
+        min-width:1150px;
         display:flex;
         align-items: center;
         background:linear-gradient(to right,#000E62 30%, #4B37BB 70%);
@@ -1060,7 +1097,7 @@
     }
     .m_third_card2 {
         width:70%;
-        min-width:1250px;
+        min-width:1150px;
         border-radius:10px;
         height: 30%;
         margin-top: 15px;
@@ -1080,7 +1117,7 @@
     }
     .m_third_card3 {
         width:70%;
-        min-width:1250px;
+        min-width:1150px;
         height: 30%;
         margin-top: 15px;
         border-radius:10px;
@@ -1154,6 +1191,8 @@
         height:100%;
     }
     .m_four_first{
+        width:100%;
+        margin:0 auto;
         display:flex;
         align-items: flex-end;
         height:10%;
@@ -1164,6 +1203,8 @@
         border-bottom: 1px solid #666666;
     }
     .m_four_second{
+        width:100%;
+        margin:0 auto;
         display:flex;
         align-items: center;
         height:10%;
