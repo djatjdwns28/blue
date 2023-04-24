@@ -365,7 +365,7 @@
     }
 
     #main_fourth{
-        height:2080px;
+        height:2680px;
         background-color: #F3F7FF;
     }
     #m_four{
@@ -451,10 +451,13 @@
         margin-top: 210px;
         font-weight: bold;
         font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color:#222C3C;
     }
     .m_four_fifth{
-        height:50%;
+        height:55%;
     }
     .m_four_fifth_card_list{
         display:flex;
@@ -502,7 +505,7 @@
         display:flex;
     }
     .m_four_sixth{
-        height:10%;
+        height:5%;
         display:flex;
         justify-content: center;
         align-items: center;
