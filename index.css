@@ -1045,6 +1045,7 @@
     .mcc_card1 {
         width: 440px;
         height: 550px;
+        border-radius: 10px;
         background-color: #131A25;
     }
 
@@ -1097,6 +1098,7 @@
     .mcc_card2 {
         width: 440px;
         height: 550px;
+        border-radius: 10px;
         background-color: #131A25;
     }
 
@@ -1334,6 +1336,7 @@
     .m_four_third {
         width: 100%;
         background-color: #5AB5B9;
+        border-radius: 10px;
         height: 20%;
     }
 
@@ -1409,6 +1412,7 @@
     .m_four_fifth_card {
         width: 390px;
         height: 480px;
+        border-radius: 10px;
         background-color: white;
         display: flex;
         justify-content: center;
@@ -1521,6 +1525,7 @@
     .m_five_third_card {
         width: 100%;
         height: 100%;
+        border-radius: 10px;
         background-color: #131A25;
         display: flex;
     }
@@ -1550,6 +1555,7 @@
     }
 
     .m_five_fourth_card {
+        border-radius: 10px;
         box-shadow: 3px 5px 5px lightgray;
         background-color: white;
         width: 1064px;
